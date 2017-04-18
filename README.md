@@ -11,7 +11,7 @@ How to use this image
 ====
 
 - cd $(YOUR_PROJECT)
-- `sudo nvidia-docker run -v `pwd`:/root/app -it my-chainer /bin/bash`
+- `sudo nvidia-docker run -v $PWD:/root/app -it my-chainer /bin/bash`
   * Now, You are in the container
 - cd /root/app
   * You can see $(YOUR_PROJECT)
