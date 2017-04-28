@@ -10,4 +10,4 @@ RUN apt-get update -y && \
     swig \
     zlib1g-dev && \
     pip install --upgrade pip && \
-    pip install chainer==1.22.0 chainerrl
+    pip install chainer==1.22.0 chainerrl enum34 python-logstash pandas pandas-datareader
